@@ -1,0 +1,11 @@
+#table1{width: 75vw;border: 10px solid blue;border-collapse: collapse;}
+td{text-align: center;border:5px solid dodgerblue;padding: 10px;}
+th{text-align: center;border:5px solid dodgerblue;padding: 10px;}
+#table2{width: 75vw;border: 10px solid blue;border-collapse:separate;border-spacing: 20px}
+#table2 td{text-align: center;border:5px solid dodgerblue;border-radius:10px;}
+#table2 th{background-color:steelblue;}
+#table2 tr:nth-child(odd){background-color: gold;}
+#table2 tr:nth-child(even){background-color: deepskyblue;}
+#table3{width: 75vw;border: 10px solid blue;border-collapse:collapse;border-spacing: 20px}
+#table3 td{text-align: center;border:5px solid dodgerblue;border-radius:10px;}
+#table3 tr:hover{background-color: deeppink;}
